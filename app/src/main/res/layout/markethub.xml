@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<androidx.cardview.widget.CardView
+    app:cardBackgroundColor="@color/fui_transparent"
+    style="@style/CardView.Light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="8dp"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:id="@+id/ll1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelclient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/client"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:id="@+id/tvClientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/client"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                tools:targetApi="jelly_bean"
+                android:layout_marginLeft="10dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:id="@+id/ll2"
+            android:layout_below="@+id/ll1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/quantity"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:id="@+id/tvOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/order"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                tools:targetApi="jelly_bean"
+                android:layout_marginLeft="10dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:id="@+id/ll3"
+            android:layout_below="@+id/ll2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelLoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/locationss"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/locations"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                tools:targetApi="jelly_bean"
+                android:layout_marginLeft="10dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:id="@+id/ll4"
+            android:layout_below="@+id/ll3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/status"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/pending"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                tools:targetApi="jelly_bean"
+                android:layout_marginLeft="10dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:id="@+id/ll5"
+            android:layout_below="@+id/ll4"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/phones"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp" />
+
+            <Button
+                android:id="@+id/btnPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/call"
+                android:background="@drawable/btnshapes"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                tools:targetApi="jelly_bean"
+                android:layout_marginLeft="10dp" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

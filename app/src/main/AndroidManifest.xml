@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.first.lima">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconbig"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconbig"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.farmer.hub.LabourHub"></activity>
+        <activity android:name=".activities.farmer.hub.MarketHub" />
+        <activity android:name=".activities.farmer.hub.FinancesHub" />
+        <activity android:name=".activities.farmer.hub.DiseaseHub" />
+        <activity android:name=".activities.farmer.hub.GrowHub" />
+        <activity android:name=".activities.farmer.onboardingfarmer.OnBoardingFarmer" />
+        <activity android:name=".activities.landowner.dashboard.LandOwnerDash" />
+        <activity android:name=".activities.landowner.onboarding.OnBoarding" />
+        <activity android:name=".activities.farmer.CropHub">
+
+        </activity>
+        <activity android:name=".activities.farmer.CropsCounty" />
+        <activity android:name=".activities.landowner.LandForm" />
+        <activity android:name=".activities.farmer.CountyList" />
+        <activity android:name=".activities.MainDashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".authentication.FirebaseLogin" />
+        <activity android:name=".Splash">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "738718403007",
+    "firebase_url": "https://lima-8be2a.firebaseio.com",
+    "project_id": "lima-8be2a",
+    "storage_bucket": "lima-8be2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738718403007:android:c670a0bbf7ef31b3aeb90a",
+        "android_client_info": {
+          "package_name": "com.first.lima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738718403007-9qvjbjshgl2rtc5k0ng168egg1ifc0dh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.first.lima",
+            "certificate_hash": "96740cfa83c08ddf14165badffdc531bbec68494"
+          }
+        },
+        {
+          "client_id": "738718403007-rls72n401atjt5ggfknts85i7of7m6bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqvYLmjXcbrPRLd1229vji64_XO-a5uh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738718403007-rls72n401atjt5ggfknts85i7of7m6bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
